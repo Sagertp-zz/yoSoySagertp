@@ -1,0 +1,48 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    title sagertp
+    link(rel="stylesheet" type="text/css" href="public/css/main.css")
+    block script
+    script(type="text/javascript" src="public/js/jquery-3.2.1.min.js")
+    script(type="text/javascript" src="public/js/particle.js")
+    script(type="text/javascript" src="public/js/openclos.js")
+body
+    div#main-container
+        section#intro-container
+            div.center-align
+                nav
+                    div#logo
+                    div#menu-lista
+                        ul
+                            li
+                                a(href='/') Inicio | 
+                            li
+                                a(href='/devops')  Desarrollo | 
+                            li
+                                a(href='/telecom')  Redes
+                div.section-columns
+                    div
+                        h2.white Saget Moises Perez Castillo.
+                        div.btn-section
+                            a(class="btn btn-white" href="#about-section")  Conóceme más.
+                    div#image-bg
+     
+    block content
+    
+    div(class="rectangle bg-black skew-left")
+    
+    div(class="section bg-black" id="footer")
+        div(class="center-align")
+            div(class="section-columns")
+                div
+                    h2(class="white") Sigamos en Contacto.
+                    div(class="btn-section")
+                        a( class="btn btn-white" href="mailto: contacto@misitio.com") Envianos un mensaje.
+                div
+                    h3 Contáctanos si quieres saber cómo podemos colaborar en tu siguiente proyecto.
+                    p También puedes estar conectado por medio de las redes sociales, enterarte de nuestros trabajo y conocenos un poco más.
+                    div(class="btn-section")
+                        a(class="btn btn-white" href="http://www.facebook.com/misitio/") Facebook.
+                        a(class="btn btn-white" href="http://www.twitter.com/misitio/") Twitter.
+                        a(class="btn btn-white" href="http://www.instagram.com/misitio/") Instagram.
