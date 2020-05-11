@@ -81,16 +81,16 @@ p a:hover{ /* #184DA8 */
 
 #work, #work02, #work03, #work04{
 	background-repeat: no-repeat;
-	background-size: 750px;
+	background-size: 500px;
 	background-position: right center;
 	height: 600px;
 	padding-top: 150px;
-	margin-top: -50px;	
+	margin-top: 0px;	
 }
 
 
 #work  {background-image: url('../img/poster-design-series.jpg');}
-#work02{background-image: url('../img/nerddiary-blog.jpg');}
+#work02{background-image: url('../img/nerddiary-blog2.png');}
 #work03{background-image: url('../img/nismo-design-concept.jpg');}
 #work04{background-image: url('../img/pixelschupser-mediendesign-website.jpg');}
 
@@ -207,6 +207,9 @@ p a:hover{ /* #184DA8 */
 .merge{
 	display: none;
 }
+.margentop{
+	margin-top: -50px;
+}
 .merge_bg{
 	position: fixed;
 	background-color: #666;
@@ -214,7 +217,10 @@ p a:hover{ /* #184DA8 */
 	left: 0;
 }
 
-
+#logosp{
+	width: 50%;
+	height: 50%;
+}
 
 
 /*......................................................*/
